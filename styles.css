@@ -14,3 +14,49 @@
     display: flex;
     padding: 4px;
 }
+
+.row1, .row2-boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.row1-box1 {
+    overflow-wrap: normal;
+    width: 400px;
+    height: 300px;
+}
+
+.feature-image {
+    width: 300px;
+    height: 200px;
+}
+
+img {
+    object-fit: contain;
+}
+
+h3 {
+    text-align: center;
+}
+
+.row2-boxes {
+    text-align: center;
+    padding: 4px;
+}
+
+.row2-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+}
+
+.row2-image {
+    width: 150px;
+    height: 100px;
+}
+
