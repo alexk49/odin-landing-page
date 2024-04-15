@@ -1,8 +1,15 @@
+.nav-bar, .footer, .row1 {
+    background-color: #1F2937;
+}
+
+.header, .footer {
+    list-style: none;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     padding: 16px;
-    list-style: none;
 }
 
 #logo {
@@ -15,7 +22,7 @@
     padding: 4px;
 }
 
-.row1, .row2-boxes {
+.row1, .row2-box, .row2-boxes, .row3, .row4, .footer {
     display: flex;
     justify-content: center;
 }
@@ -45,9 +52,7 @@ h3 {
 }
 
 .row2-box {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 8px;
     flex-wrap: wrap;
     width: 200px;
@@ -60,3 +65,39 @@ h3 {
     height: 100px;
 }
 
+.author-line {
+    display: flex;
+    margin-left: auto;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 250px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 100px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
