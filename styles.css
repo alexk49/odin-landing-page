@@ -5,8 +5,12 @@ body, html, head {
     outline: 0;
 }
 
-#dark-background {
+#dark-background, .footer {
     background-color: #1F2937;
+}
+
+.footer {
+    padding:15px;
 }
 
 .header, .footer {
@@ -99,7 +103,7 @@ h3 {
     border-color: #3882F6;
 }
 
-.row2 {
+.row2, .row4 {
     padding: 50px;
 }
 
@@ -131,10 +135,6 @@ blockquote {
 
 .row3 {
     background-color: #E5E7EB;
-}
-
-.row4 {
-    padding: 50px;
 }
 
 h4 {
