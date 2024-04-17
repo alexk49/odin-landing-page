@@ -96,11 +96,13 @@ h3 {
     flex-direction: column;
     padding: 8px;
     flex-wrap: wrap;
-    width: 200px;
+    width: 350px;
     height: 200px;
-    text-align: center;
     border-style: solid;
     border-color: #3882F6;
+    margin: 8px;
+    border-radius: 8px;
+    align-items: center;
 }
 
 .row2, .row4 {
